@@ -1,19 +1,60 @@
 
-        h2{
-    background-color: rgb(55, 55, 231);
-       color: aliceblue;
-       font-size: x-large;
-       font-style: oblique;
-         }
-
-         #ps1{
-           color: rgba(82, 255, 154, 0.589);
-         }
-         
-         .ps5{
-           color: gold;
-           font-size:xx-large ;
-           font-style:inherit;
-           font-size-adjust: unset;
-           font-size:xx-large (1000px)
-         }
+        
+        h1 {
+            color: #333;
+        }
+        
+        h2 {
+            color: #666;
+        }
+        
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #999;
+        }
+        
+        ul {
+            padding: 0;
+        }
+        
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        div {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        div:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
