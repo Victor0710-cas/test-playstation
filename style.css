@@ -43,3 +43,6 @@ p{
 p{
     font-size: 30px;
 }
+.ps2{
+    min-height: 10px; height: 10px;
+}
